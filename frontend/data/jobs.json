@@ -1,0 +1,60 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Senior React developer",
+      "type": "Full-time",
+      "description": "We are seeking a talented Front-end developer to join our team in Finfine,Oromia.  The ideal candidate will have strong skills in HTML,CSS, and JavaScript, with experaince working with moder JavaScript frameworks suchas ract and angular ",
+      "location": "Finfine, Oromia",
+      "salary": "$70k-$80k",
+      "company": {
+        "name": "Seena Solutions",
+        "description": "Seena solution is a leading technology company specialized in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering ",
+        "contactEmail": "seena@gmail.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Front-end Engineer",
+      "type": "Part-time",
+      "location": "Shashamane, Oromia",
+      "salary": "$70k-$80k",
+      "description": "Join our team as  frontend developer in Shashamane, Oromia. we are looking for motivated inidividual with a passion for crafting beautifull and responsive web applications. Experiance with UI/UX design principles and strong attension to details is highly desirable ",
+      "company": {
+        "name": "Hikma Techs",
+        "description": " Hikma tech is a creative tech company specialized in digital design and development. Our team is dedicated to pushing boundaries of creativity and innovation to deliver exceptional results for our clients. ",
+        "contactEmail": "Hikma@gmail.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Engineer",
+      "type": "Full-time",
+      "location": "Adama, Oromia",
+      "salary": "60k-$70k",
+      "description": "Join our team as part -time frontend engineer in beutiful city of Adama, Oromia. we are looking for self-motivated inidividual with a passion for creating and engaging user exeperiance. This position offeres flexable hours and the opprotunity to work remotly",
+      "company": {
+        "name": "Kenna Clouds",
+        "description": " Kenna Cloud is a leading technology company specializing in digital solutions for bussinesses of all sizes. with a focus on innovation and customer satisfaction. we are commited to delivering cutting-edge products and services. ",
+        "contactEmail": "Kenna@gmail.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Senior Software Developer",
+      "type": "Part-time",
+      "location": "Dire Dhawa, Oromia",
+      "salary": "50k-$60k",
+      "description": "Join our team as part -time frontend engineer in beutiful city of Adama, Oromia. we are looking for self-motivated inidividual with a passion for creating and engaging user exeperiance. This position offeres flexable hours and the opprotunity to work remotly",
+      "company": {
+        "name": "Taha Elite ",
+        "description": " Taha elite is a dynamic startup especialized in digital marketing and web development. we are committed to fostering a diverse and inclusive thrieve. ",
+        "contactEmail": "Taha@gmail.com",
+        "contactPhone": "555-555-5555"
+      }
+    }
+  ]
+}

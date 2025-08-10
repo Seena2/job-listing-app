@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed" Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --primary-color: #1e90ff; /*3760e7*/
+  --white-color: #fff;
+  --light-blue: #c1cffd;
+  --white-blue: #ceedfc;
+  --light-gray: #dbdbdb;
+  --black-color: #030303;
+  --red-color: #8f1010;
+  --font-size-base: 16px;
+}
+
+.container {
+  --container-padding: 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+p {
+  text-align: justify;
+  padding: 0.1rem 0;
+}
+.lightBlueBg {
+  background-color: var(--light-blue);
+}
+.lightGray {
+  background-color: var(--light-gray);
+}
+/* Buttons */
+.btn {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  margin-bottom: 1rem;
+  padding: 0.1rem 1rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+.largeBtn {
+  width: 95%;
+  font-size: 1rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+.heroBtn {
+  margin-top: 2rem;
+}
+.blueBtn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+/*Navbar */
+.navbar {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--primary-color);
+  /* box-shadow: 2px 2px 3px #292828, -2px -2px 5px blue; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.logo {
+  margin-left: 2rem;
+  padding: 0.6rem;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logoImage {
+  width: 50px;
+  border-radius: 50%;
+}
+.menu {
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.menu a {
+  padding: 0 5px;
+}
+.menu a:active {
+  color: var(--black-color);
+}
+.menu a:hover {
+  text-decoration: overline;
+  color: var(--primary-color);
+}
+
+/*HERO*/
+.hero {
+  margin-top: 2px;
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.motto {
+  color: var(--white-color);
+  margin: 4rem 0;
+}
+.title {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+/* content*/
+.content {
+  padding: var(
+    --container-padding,
+    10px
+  ); /* Fallback to 10px if --container-padding is not defined */
+}
+/*Home cards*/
+.homeCards {
+  display: flex;
+  margin: 2rem auto;
+  width: 80%;
+  flex-direction: row;
+  text-align: center;
+  gap: 2rem;
+}
+.card {
+  margin: 0 auto;
+  padding: 1rem;
+
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+/* Job Listings*/
+.jobListings {
+  width: 100%;
+  background-color: var(--white-blue);
+}
+.jobListings h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 1rem;
+}
+.jobs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal-width columns */
+  gap: 1.2rem; /* Adds space between grid items */
+  margin: 2rem auto;
+  width: 80%;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allows cards to grow and shrink, taking up equal width */
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background-color: var(--white-color);
+}
+.jobType {
+  color: var(--light-gray);
+}
+.jobTitle {
+  color: var(--black-color);
+  padding: 1rem 0;
+}
+.jobBody {
+  height: 80%;
+}
+.jobDescription {
+}
+
+.jobSalary {
+  color: var(--primary-color);
+}
+.jobLocation {
+  display: flex;
+  color: var(--red-color);
+}
+.jobBtn {
+  margin-top: auto; /* Pushes the button to the bottom */
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.btnMedium {
+  width: 40%;
+  margin: 1rem auto;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+/* grid-template-cols:70% 28%*/
+
+/*media queries*/
+/* Media query for screens with a maximum width of 768px (e.g., tablets and smaller) */
+@media screen and (max-width: 768px) {
+  body {
+    /* background-color: lightgray; */
+    font-size: 14px;
+  }
+
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+    padding: 10px;
+  }
+  .homeCards {
+    flex-direction: column;
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+  body {
+    /* background-color: lightblue; */
+    font-size: 12px;
+  }
+  .homeCards {
+    flex-direction: column;
+  }
+  .container {
+    width: 100%; /* Full width for mobile */
+    padding: 5px;
+  }
+
+  /* Example of hiding an element on very small screens */
+  .sidebar {
+    display: none;
+  }
+}
