@@ -1,12 +1,13 @@
-# React + Vite
+# Job Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+an app, that lets user to search a job and and apply for it, and employers can add job going to 'Hire' menu.
 
-Currently, two official plugins are available:
+used CRUD operation for adding, fetching using data loader, and defined the CRUD methods in the root component \<App/> and passed them as props to respective component and for laoder they are passed to the route.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+we use React router for routing,
+we used the Json-server to simulate the backend API
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To do
+-authentication
+-use 'Conext API' of redux for CRUD operations.
+-Real Backend using Express,mongo and mongoose
