@@ -32,7 +32,7 @@ function Job({ job }) {
         </div>
       </div>
       <div className="  jobBtn">
-        <Link to={`/job/${job.id}`} className="blueBtn">
+        <Link to={`/jobs/${job.id}`} className="blueBtn">
           Read more
         </Link>
       </div>

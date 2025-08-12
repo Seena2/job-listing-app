@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior React developer",
       "type": "Full-time",
       "description": "We are seeking a talented Front-end developer to join our team in Finfine,Oromia.  The ideal candidate will have strong skills in HTML,CSS, and JavaScript, with experaince working with moder JavaScript frameworks suchas ract and angular ",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Front-end Engineer",
       "type": "Part-time",
       "location": "Shashamane, Oromia",
@@ -29,12 +29,12 @@
       }
     },
     {
-      "id": 3,
-      "title": "Engineer",
-      "type": "Full-time",
+      "id": "3",
+      "type": "remote",
+      "title": "Software Engineer",
       "location": "Adama, Oromia",
-      "salary": "60k-$70k",
       "description": "Join our team as part -time frontend engineer in beutiful city of Adama, Oromia. we are looking for self-motivated inidividual with a passion for creating and engaging user exeperiance. This position offeres flexable hours and the opprotunity to work remotly",
+      "salary": "$90k-$100k",
       "company": {
         "name": "Kenna Clouds",
         "description": " Kenna Cloud is a leading technology company specializing in digital solutions for bussinesses of all sizes. with a focus on innovation and customer satisfaction. we are commited to delivering cutting-edge products and services. ",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Senior Software Developer",
       "type": "Part-time",
       "location": "Dire Dhawa, Oromia",

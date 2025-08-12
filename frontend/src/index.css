@@ -188,6 +188,7 @@ p {
   height: 80%;
 }
 .jobDescription {
+  padding: 1rem;
 }
 
 .jobSalary {
@@ -209,8 +210,55 @@ p {
   text-align: center;
   color: var(--white-color);
   background-color: var(--primary-color);
+  justify-self: center;
 }
+/*jobPage*/
 /* grid-template-cols:70% 28%*/
+.jobPage {
+  display: grid;
+  grid-template-columns: 70% 28%;
+  gap: 1rem;
+}
+.sidebar {
+  padding: 1rem;
+}
+/*AddJob page*/
+.addJob {
+  width: 70%;
+  background-color: var(--light-blue);
+  margin: 3rem auto;
+}
+.addJob h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+form {
+  margin: 1rem;
+}
+.formGroup {
+  margin: 0 1rem;
+  display: block;
+}
+.formGroup input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 0.8rem;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--white-color);
+  width: 100%;
+  border-radius: 4px;
+}
+.companyInfo {
+  font-weight: bold;
+  margin: 1rem 0 0.2rem;
+}
+footer {
+  display: flex;
+  bottom: 0;
+}
 
 /*media queries*/
 /* Media query for screens with a maximum width of 768px (e.g., tablets and smaller) */
